@@ -1,0 +1,232 @@
+{
+ "authors_sha": "23b3d2c933d9b72ca7f57cbe66ef247551d0b9fd",
+ "n_concepts_listed": 112,
+ "parse": {
+  "q2": {
+   "bad_freq": 0,
+   "fallback": 0,
+   "rows": 15981,
+   "self": 0,
+   "unique": 15981,
+   "unparsed": 0
+  },
+  "q3": {
+   "bad_freq": 0,
+   "fallback": 0,
+   "rows": 3709,
+   "self": 0,
+   "unique": 3709,
+   "unparsed": 0
+  }
+ },
+ "primary": {
+  "R": 1000,
+  "g_er": 0.3558418905480295,
+  "g_pop": -0.2013090888050549,
+  "group_pop": {
+   "B": 1000,
+   "T": 0.2013090888050549,
+   "T_null_sd": 0.027627172342235586,
+   "n_dogs": 133,
+   "p_high": 0.000999000999000999,
+   "p_low": 1.0
+  },
+  "hist_bins": [
+   -2.0,
+   -1.0,
+   -0.6,
+   -0.2,
+   0.2,
+   0.6,
+   1.0,
+   2.0
+  ],
+  "hist_er_mean": [
+   0,
+   9,
+   37,
+   87,
+   0,
+   0,
+   0
+  ],
+  "hist_pop_mean": [
+   0,
+   111,
+   21,
+   1,
+   0,
+   0,
+   0
+  ],
+  "hist_real": [
+   0,
+   85,
+   20,
+   12,
+   14,
+   2,
+   0
+  ],
+  "n_author_criterion_er": 93,
+  "n_author_criterion_pop": 24,
+  "n_dog_p05_pop": 7,
+  "n_eligible": 139,
+  "n_group": 133,
+  "n_subjects": 176,
+  "ri_er_mean": -0.20854573468761278,
+  "ri_pop_mean": -0.7656967140406971,
+  "ri_real_mean": -0.5643876252356422,
+  "ri_real_median": -0.7964205637009346,
+  "share_explained": 1.565726223225209,
+  "thresh": 2,
+  "verdict": "POPULARITY_EXPLAINS_MOST_OF_GAP"
+ },
+ "primary_table": "q2",
+ "secondary": {
+  "q2_thresh1": {
+   "R": 300,
+   "g_er": 0.2961634939572207,
+   "g_pop": -0.16045029518311035,
+   "group_pop": {
+    "B": 300,
+    "T": 0.16045029518311035,
+    "T_null_sd": 0.02615497543300741,
+    "n_dogs": 161,
+    "p_high": 0.0033222591362126247,
+    "p_low": 1.0
+   },
+   "hist_bins": [
+    -2.0,
+    -1.0,
+    -0.6,
+    -0.2,
+    0.2,
+    0.6,
+    1.0,
+    2.0
+   ],
+   "hist_er_mean": [
+    0,
+    8,
+    59,
+    94,
+    0,
+    0,
+    0
+   ],
+   "hist_pop_mean": [
+    0,
+    104,
+    51,
+    6,
+    0,
+    0,
+    0
+   ],
+   "hist_real": [
+    0,
+    88,
+    36,
+    19,
+    8,
+    9,
+    1
+   ],
+   "n_author_criterion_er": 115,
+   "n_author_criterion_pop": 40,
+   "n_dog_p05_pop": 5,
+   "n_eligible": 164,
+   "n_group": 161,
+   "n_subjects": 176,
+   "ri_er_mean": -0.20208945794396935,
+   "ri_pop_mean": -0.6587032470843005,
+   "ri_real_mean": -0.49825295190119,
+   "ri_real_median": -0.6563514127485226,
+   "share_explained": 1.5417625685030802,
+   "thresh": 1,
+   "verdict": "POPULARITY_EXPLAINS_MOST_OF_GAP"
+  },
+  "q3_thresh2": {
+   "R": 300,
+   "g_er": 0.3618193170838842,
+   "g_pop": -0.07534720584663746,
+   "group_pop": {
+    "B": 300,
+    "T": 0.07534720584663746,
+    "T_null_sd": 0.035152177309243735,
+    "n_dogs": 96,
+    "p_high": 0.023255813953488372,
+    "p_low": 0.9800664451827242
+   },
+   "hist_bins": [
+    -2.0,
+    -1.0,
+    -0.6,
+    -0.2,
+    0.2,
+    0.6,
+    1.0,
+    2.0
+   ],
+   "hist_er_mean": [
+    0,
+    17,
+    59,
+    20,
+    0,
+    0,
+    0
+   ],
+   "hist_pop_mean": [
+    0,
+    87,
+    9,
+    0,
+    0,
+    0,
+    0
+   ],
+   "hist_real": [
+    0,
+    79,
+    7,
+    3,
+    4,
+    3,
+    0
+   ],
+   "n_author_criterion_er": 69,
+   "n_author_criterion_pop": 10,
+   "n_dog_p05_pop": 7,
+   "n_eligible": 103,
+   "n_group": 96,
+   "n_subjects": 169,
+   "ri_er_mean": -0.38620478850802414,
+   "ri_pop_mean": -0.8233713114385458,
+   "ri_real_mean": -0.7480241055919085,
+   "ri_real_median": -0.9338827426052765,
+   "share_explained": 1.2082453929046828,
+   "thresh": 2,
+   "verdict": "POPULARITY_EXPLAINS_MOST_OF_GAP"
+  }
+ },
+ "seconds": 118.6,
+ "seed": 20261121,
+ "tables": {
+  "q2": {
+   "max_freq": 400,
+   "min_freq": 1,
+   "pair_events": 81357,
+   "rows": 15981,
+   "subjects": 176
+  },
+  "q3": {
+   "max_freq": 313,
+   "min_freq": 1,
+   "pair_events": 23603,
+   "rows": 3709,
+   "subjects": 169
+  }
+ }
+}
